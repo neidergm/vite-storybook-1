@@ -1,14 +1,17 @@
 {
   "name": "vite-storybook-1",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist/"
   ],
-  "author": {"email": "neidergm.ng@gmail.com", "name": "NeiderG"},
+  "author": {
+    "email": "neidergm.ng@gmail.com",
+    "name": "NeiderG"
+  },
   "homepage": "https://URLSITE.COM",
   "repository": {
     "type": "git",
@@ -36,8 +39,7 @@
     "npm:push": "np",
     "test": "echo 'No tests'"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
