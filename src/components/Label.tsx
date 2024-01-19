@@ -1,12 +1,16 @@
-import React from 'react'
+import { createElement } from "react";
+import "./test/index.css";
 
 type Props = {
-    text: string
+    text: string,
+    type?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "p"
 }
 
-const Label = ({ text }: Props) => {
+const Label = ({ text, type = "p" }: Props) => {
     return (
-        <div>{text}</div>
+        <div>
+            {createElement(type, {}, text)}
+        </div>
     )
 }
 

@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import Label from "../components/Label";
 
 const meta = {
-    title: "Example/Label",
+    title: "My Components/Label",
     component: Label,
     parameters: {
         layout: 'fullscreen'
